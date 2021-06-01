@@ -12,6 +12,8 @@ library(MASS)
 
 #makeCacheMatrix consists of set,get,setinv,getinv
 
+
+
 makeCacheMatrix <- function(x = matrix()){
   
   #Initializing inverse as NULL  
@@ -40,6 +42,7 @@ makeCacheMatrix <- function(x = matrix()){
 ## Write a short comment describing this function
 
 #This is used to get the cached data
+
 
 cacheSolve <- function(x, ...) #gets cache data
 {
